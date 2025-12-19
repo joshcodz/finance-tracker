@@ -1,0 +1,53 @@
+############################
+# Node / JS build artifacts
+############################
+
+# Frontend and backend node modules
+finance-tracker/node_modules/
+finance-tracker-backend/node_modules/
+node_modules/
+
+# Build / dist outputs
+finance-tracker/dist/
+finance-tracker-backend/dist/
+dist/
+build/
+
+############################
+# Environment / secrets
+############################
+
+# Root-level envs
+.env
+.env.local
+.env.production
+.env.development
+
+# Frontend env files (Vite/React)
+finance-tracker/.env
+finance-tracker/.env.local
+finance-tracker/.env.*.local
+
+# Backend env files
+finance-tracker-backend/.env
+finance-tracker-backend/.env.local
+finance-tracker-backend/.env.*.local
+
+############################
+# Logs
+############################
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+############################
+# OS / Editor junk
+############################
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
