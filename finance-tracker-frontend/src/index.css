@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Luxia';
+  src: url('/src/assets/fonts/Luxia.woff2') format('woff2'),
+       url('/src/assets/fonts/Luxia.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* headings + logo use Luxia */
+h1, h2, h3, .luxia-heading {
+  font-family: 'Luxia', ui-serif, 'Times New Roman', serif;
+  letter-spacing: 0.08em;
+}
+
+/* body text uses clean sans */
+html, body, #root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #020617;
+  color: #f9fafb;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
